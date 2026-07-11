@@ -1,0 +1,744 @@
+@charset "utf=8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+    /* border: 1px solid red; */
+}
+
+img,
+video {
+    object-fit: cover;
+}
+
+li {
+    list-style-type: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.menu-btn,
+.line_one,
+.line_two {
+    position: relative;
+}
+
+#nav {
+    height: 50px;
+    background-color: #1F76BD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 30px;
+    display: flex;
+}
+
+.nav-containt {
+    display: none;
+}
+
+.menu-btn {
+    display: flex;
+    color: white;
+    right: 10%;
+}
+
+#herosection {
+    background-image: url('images/background.jpg');
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line_one {
+    color: white;
+    text-align: center;
+    top: 40%;
+    font-size: 18px;
+}
+
+.line_two {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    top: 41%;
+}
+
+#herosection button {
+    position: relative;
+    display: block;
+    color: #115C9B;
+    background-color: white;
+    left: 24%;
+    top: 48%;
+    font-size: large;
+    height: 40px;
+    width: 160px;
+}
+
+.mission_text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.mission_first,
+.mission_second,
+.mission_third,
+.mission_fourth {
+    padding: 20px;
+    background-color: #1286E6;
+    color: white;
+    border: 15px solid white;
+}
+
+.mission_first button,
+.mission_second button,
+.mission_third button,
+.mission_fourth button {
+    background-color: #115C9B;
+    height: 37px;
+    color: white;
+    width: 130px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#our_mission .img {
+    height: 100px;
+}
+
+.bg_attachement {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    height: 80vh;
+}
+
+.center-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.center-btn button {
+    color: white;
+    padding: 9px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #1F76BD;
+    transition: background 0.3s ease;
+}
+
+.onee,
+.twoo,
+#sponsers .button {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.threee,
+.fourr,
+.fivee,
+.sixx,
+.sevenn,
+.eightt,
+.ninee,
+.tenn {
+    display: none;
+}
+
+.brand_container {
+    text-align: center;
+}
+
+#Sponsers h2 {
+    text-align: center;
+}
+
+#sponsers .Sponsers {
+    color: #115C9B;
+    text-align: center;
+}
+
+#about_section {
+    height: auto;
+    background-color: #1F76BD;
+    border-top: 40px solid #115C9B;
+    color: white;
+    font-size: small;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-bottom: 5vh;
+}
+
+.about {
+    height: auto;
+}
+
+.form .name,
+.email,
+.textarea,
+button {
+    background-color: #115C9B;
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    padding: 10px;
+}
+
+.form .name,
+.email,
+.textarea {
+    width: 300px;
+    color: #999999;
+    font-weight: 700;
+}
+
+.hr {
+    padding: 10px 0px 10px;
+}
+
+.form button {
+    color: white;
+    justify-self: end;
+    margin: 0px 10px;
+}
+
+.last_tweets h3 {
+    line-height: 30px;
+}
+
+#copyright_section {
+    color: white;
+    background-color: #115C9B;
+    width: 100%;
+}
+
+#copywrite_section a {
+    color: white;
+}
+
+.gallery-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-grid div {
+    width: 100%;
+    max-width: 300px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+
+.about_text {
+    line-height: 25px;
+}
+
+.bg_attachement {
+    background-image: url('images/donation.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 60vh;
+}
+
+#about_section {
+    font-weight: 100;
+}
+
+@media(min-width:768px) {
+
+    .line_one,
+    .line_two {
+        position: relative;
+    }
+
+    #herosection {
+        height: 80vh;
+    }
+
+    .container_one {
+        display: flex;
+    }
+
+    .container_two {
+        display: flex;
+    }
+
+    .line_one {
+        top: 40%;
+        font-size: 30px
+    }
+
+    .line_two {
+        font-size: 20px;
+        top: 41%;
+    }
+
+    #herosection button {
+        left: 40%;
+        top: 47%;
+    }
+
+    #our_mission {
+        border: 20px solid white;
+    }
+
+
+    .onee,
+    .twoo,
+    .threee,
+    .fourr {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        padding-right: 15px;
+    }
+
+    .fivee,
+    .sixx,
+    .sevenn,
+    .eightt,
+    .ninee,
+    .tenn {
+        display: none;
+    }
+
+    #about_section {
+        height: auto;
+    }
+
+    .form {
+        display: flex;
+        padding-bottom: 30px;
+    }
+
+    .form .name,
+    .email,
+    .textarea {
+        width: 750px;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .form .name,
+    .email,
+    .textarea,
+    button {
+        color: #999999;
+        font-weight: 700;
+    }
+
+    .form button {
+        color: white;
+        position: absolute;
+        right: -1px;
+
+    }
+
+    #copyright_section {
+        width: auto;
+        text-align: end;
+        padding: 10px;
+        word-spacing: 2px;
+    }
+
+    .bg_attachement {
+        height: 60vh;
+    }
+
+    .bg_attachement p {
+        padding-top: 80px;
+    }
+}
+
+@media(min-width:1024px) {
+
+    #herosection button,
+    #menu,
+    .tthird,
+    .line_one,
+    #navbar {
+        position: relative;
+    }
+
+    #nav {
+        height: 50px;
+        background-color: #1F76BD;
+        display: flex;
+    }
+
+    .line_one {
+        top: 40%;
+        font-size: 30px;
+    }
+
+    .line_two {
+        font-size: 25px;
+        top: 41%;
+    }
+
+    #herosection button {
+        height: 50px;
+        left: 42%;
+        top: 43%;
+    }
+
+    #menu {
+        display: flex;
+        left: 10%;
+    }
+
+    #menu a {
+        color: white;
+    }
+
+    .nav-containt {
+        width: 700px;
+        display: block;
+        color: white;
+    }
+
+    #navbar {
+        top: 20%;
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    #our_mission {
+        width: auto;
+    }
+
+    .mission_first,
+    .mission_second,
+    .mission_third,
+    .mission_fourth {
+        background-color: #1286E6;
+        color: white;
+        border: 15px solid white;
+        width: 510px;
+    }
+
+    .mission_first button,
+    .mission_second button,
+    .mission_third button,
+    .mission_fourth button {
+        background-color: #115C9B;
+        height: 37px;
+        color: white;
+        width: 130px;
+    }
+
+
+    #our_mission .img {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sponsers {
+        padding: 100px 100px;
+    }
+
+    .onee,
+    .twoo,
+    .threee,
+    .fourr,
+    .fivee {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sixx,
+    .sevenn,
+    .eightt,
+    .ninee,
+    .tenn {
+        display: none;
+    }
+
+    #about_section {
+        height: auto;
+        padding-left: 140px;
+    }
+
+    .form {
+        display: flex;
+    }
+
+    .form .name,
+    .email,
+    .textarea,
+    button {
+        background-color: #115C9B;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form .name,
+    .email,
+    .textarea {
+        width: 740px;
+        color: #999999;
+        font-weight: 700;
+    }
+
+    .form button {
+        color: white;
+        position: absolute;
+        right: 13%;
+    }
+
+
+    .aboutus {
+        width: 750px;
+    }
+
+    #copuright_section {
+        color: white;
+        background-color: #115C9B;
+        width: auto;
+        text-align: end;
+        height: 35px;
+        word-spacing: 2px;
+    }
+
+    #copyright-section a {
+        color: white;
+    }
+
+    #herosection button {
+        transition: background-color 0.3s ease;
+    }
+
+    .bg_attachement {
+        height: 80vh;
+    }
+
+    .bg_attachement p {
+        padding-top: 130px;
+    }
+}
+
+@media(min-width:1440px) {
+
+    .line_one,
+    #herosection button,
+    #menu,
+    #our_mission,
+    #herosection {
+        position: relative;
+    }
+
+    #herosection {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .line_one {
+        top: 40%;
+        font-size: 30px;
+    }
+
+    .line_two {
+        font-size: 20px;
+        top: 41%;
+    }
+
+    #herosection button {
+        margin-left: 120px;
+        top: 47%;
+        left: 36%;
+    }
+
+    #our_mission {
+        justify-items: center;
+        display: flex;
+    }
+
+    .container_one {
+        width: 50%;
+    }
+
+    .container_two {
+        width: 50%;
+    }
+
+    #menu {
+        left: 25%;
+    }
+
+    #about_section {
+        height: auto;
+        padding-left: 340px;
+    }
+
+    .form button {
+        color: white;
+        position: absolute;
+        right: 47%;
+font-size: 20px;
+    }
+
+    .sixx,
+    .sevenn {
+        display: inline;
+    }
+
+    .bg_attachement {
+        height: 60vh;
+    }
+
+    .bg_attachement p {
+        padding-top: 100px;
+    }
+}
+
+@media(min-width:2560px) {
+
+    #menu,
+    .tthird,
+    #herosection button {
+        position: relative;
+    }
+
+    #menu {
+        left: 35%;
+    }
+
+    .line_two {
+        right: 5%;
+    }
+
+    .line_one {
+        top: 40%;
+        font-size: 40px;
+        left: 1%;
+    }
+
+    .line_two {
+        font-size: 30px;
+        top: 41%;
+        left: 1%;
+    }
+
+    #herosection button {
+        left: 43%;
+        top: 47%;
+    }
+
+    .container_one {
+        display: flex;
+        padding-left: 300px;
+    }
+
+    .container_two {
+        display: flex;
+    }
+
+    .bg_attachement {
+        height: 80vh;
+    }
+
+    #about_section {
+        display: flex;
+        height: auto;
+        justify-content: space-evenly;
+        padding-left: 40px;
+    }
+
+    button.input {
+        background-color: #115C9B;
+        transition: background-color 0.3s ease;
+    }
+     .form button {
+        position: absolute;
+        right: 17%;
+    }
+
+
+    .mission {
+        background-color: #1286E6;
+        transition: background-color 0.3s ease;
+    }
+
+
+
+    .brand img {
+        transition: transform 0.3s ease;
+    }
+
+
+    .bg_attachement {
+        height: 60vh;
+    }
+
+    .bg_attachement p {
+        padding-top: 300px;
+    }
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+#herosection button:hover {
+    background-color: #115C9B;
+    color: white;
+}
+
+button.hover {
+    background-color: white;
+    color: black;
+}
+
+.mission:hover {
+    background-color: #84c3f7;
+    color: black;
+}
+
+.brand:hover img {
+    transform: translateY(-10px);
+}
