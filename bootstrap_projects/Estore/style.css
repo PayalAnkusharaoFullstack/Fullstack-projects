@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    height: 10vh;
+}
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+
+.herosection{
+    background-color: #C8EBFF;
+    height: 100vh;
+}
+.herosection img{
+    background-size: cover;
+    background-position: center;
+}
+
+.herocontent h2{
+   font-size: 65px;
+}
+.navbar button{
+  background-color: #005766;
+}
+
+.herocontent button{
+    width:200px;
+        background-color: black;
+
+}
+.category img{
+width: 300px;
+height: 230px;
+
+}
+.category_text{
+    margin-left: -160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.category_text h2 ,.category_text h4{
+    font-size: 20px;
+    font-style: italic;
+}
+.shop_now{
+    background-color: #FFF6D9;
+    position: relative;
+    height: 60vh;
+}
+.shop_boy{
+    height: 500px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+.shop_now h2{
+    font-size:30px;
+}
+.shop_cloth{
+    position: absolute;
+    bottom:5%;
+    right:5%
+}
+
+.card img{
+    height: 300px;
+}
+.features{
+    max-width: 90vw;
+}
+.box{
+    margin: 10px;
+    max-width: 300px;
+}
+.box:hover{
+    background-color: #C8EBFF;
+}
+.products img{
+      transition: transform 0.3s ease;
+}
+.products img:hover{
+    transform: scale(1.05);
+}
+.footer{
+    height: 50px;
+    padding-top: 15px;
+}
+
+@media(min-width:768px){
+    .herosection{
+    height: 80vh;
+}
+   .herosection img{
+    height: 80vh;
+    width: 50%;
+}
+.category img{
+width: 340px;
+height: 300px;
+}
+.shop_now{
+    margin-top: 110px;
+}
+.shop_content{
+    padding-left: 100px;
+}
+
+form{
+    max-width: 70vw;
+}
+
+}
+
+@media(min-width:1024px){
+.category img{
+width: 28vw;
+height: 300px;
+}
+}
+@media(min-width:1440px){
+.shop_boy{
+    height: 580px;
+}
+.gallery{
+        padding-left: 15vw;
+}
+.gallery img{
+    width: 500px;
+    height: 250px;
+}
+}
+@media(min-width:2560px){
+.shop_boy{
+    height: 900px;
+        bottom:0%;
+}
+.category img{
+width: 400px;
+height: 300px;
+}
+.category_text{
+    margin-left: -160px;
+}
+}
